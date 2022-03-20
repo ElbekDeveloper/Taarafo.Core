@@ -55,5 +55,8 @@ namespace Taarafo.Core.Services.Foundations.Profiles
 
             return maybeProfile;
         });
+        
+        public ValueTask<Profile> RemoveProfileByIdAsync(Guid profileId) =>
+            throw new NotImplementedException();
     }
 }
